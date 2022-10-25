@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 1. Two Sum
  * author: shizuka1024
- * AC(C++) 31ms 15.4MB
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
