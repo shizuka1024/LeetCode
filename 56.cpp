@@ -24,22 +24,18 @@ public:
 
         while(cur < v.size() && r < v.size())
         {
-            // printf("> %d %d\n", cur, r);
             if(v[cur][1] >= v[r][0])
             {
-                // is not include
                 if(v[cur][1] <= v[r][1])
                     v[cur][1] = v[r][1];
             }
             else
             {
-                // puts("In");
                 ans.push_back(v[cur]);
                 cur = r;
             }
             r++;
         }
-
         ans.push_back(v[cur]);
         return ans;
     }
